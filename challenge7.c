@@ -1,15 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, c;
-    printf("Enter 3 chiffres : \n");
-    printf("Enter a: ");
-    scanf("%d", &a);
-    
-    printf("Enter b: ");
-    scanf("%d", &b);
-    printf("Enter c : ");
-    scanf("%d", &c);
-    printf("l'iverse de nbr est : %d%d%d ", c, b, a);
+   int nbr, H, D, U;
+    printf("Enter le nombre: ");
+    scanf("%d", &nbr);
+    H = nbr / 100;
+    D = (nbr % 100) / 10;
+    U = nbr % 10;
+    printf("l'iverse de nbr est : %d%d%d", U, D, H);
     return (0);
 }
