@@ -6,15 +6,15 @@ int main()
     int age;
 
     printf("Enter your name : \n");
-    scanf("%s", nom);
+    scanf("%s", &nom);
     printf("Enter your last name : \n");
-    scanf("%s", prenom);
+    scanf("%s", &prenom);
     printf("Enter your age : \n");
     scanf("%d", &age);
     printf("Enter your gender : \n");
     scanf(" %c", &sexe);
     printf("Enter your phone number : \n");
-    scanf("%s", nbr);
+    scanf("%s", &nbr);
 
     printf("Hello your full name is %s %s and your age is %d and your gander is %c and ur phone number is %s \n", nom, prenom, age, sexe, nbr);
 
